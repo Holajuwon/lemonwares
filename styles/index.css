@@ -1,5 +1,5 @@
 /* google fonts - poppins and inter */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Poppins:wght@300;400;500;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Poppins:wght@300;400;500;700;900&display=swap");
 *,
 html,
 body {
@@ -385,51 +385,131 @@ ul li {
 }
 /* Miracle  */
 
+.brand_icons {
+  width: 50%;
+}
 
+.icon_holder {
+  width: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 100px auto;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 20px;
+}
 
+.col {
+  margin: auto;
+}
+
+.contact_div {
+  max-width: 88%;
+  height: 422px;
+  margin: auto;
+  padding: 10px 0;
+  background: #f3f7fc;
+  border-radius: 16px;
+}
+
+.contact_body {
+  margin: auto;
+  width: 80%;
+  height: 10em auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.contact_hd {
+  font-size: 64px;
+  width: 80%;
+  margin: auto;
+}
+
+.whatsapp_wrapper {
+  width: 208px;
+  height: 48px;
+  padding: 15px 0;
+  cursor: pointer;
+  margin-top: 40px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b00000;
+}
+
+.whatsapp_icon {
+  color: white;
+  align-items: center;
+  margin: auto;
+  text-decoration: none;
+}
+
+.fa {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  color: white;
+}
+
+.footer_container {
+  width: 100%;
+  height: 54vh;
+  margin-top: 140px;
+  background-color: #b00000;
+}
+
+.footer_content {
+  width: 85%;
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+
+.row_md1,
+.row_md2,
+.row_md3,
+.row_md4,
+.row_md5,
+.row_md6 {
+  width: auto;
+  height: auto;
+}
+
+.row_md6 {
+  width: 85%;
+  margin: auto;
+}
+
+.footer_hd {
+  width: 296px;
+  height: 240px;
+  color: #e6e6e6;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+.hd_text {
+  color: white;
+  font-size: 16px;
+}
+
+.footer_row_text {
+  margin-top: 20px;
+}
+
+.ft_link {
+  color: #e6e6e6;
+  font-weight: lighter;
+  font-size: 14px;
+  text-decoration: none;
+}
+.ft_text {
+  color: #e6e6e6;
+}
 /* Media Query */
-@media screen and (max-width: 767px) {
-  .prod_section {
-    padding: 0 20px;
-  }
-  .package_header span{
-    display: inline;
-  }
- 
-}
-@media screen and (max-width: 430px) {
-  .package_header{
-    font-size: 35px;
-    line-height: 50px;
-  }
-  .package_section > p:nth-of-type(1){
-    font-size: 20px;
-    line-height: 25px;
-  }
-  .package_duration img{
-    width: 50px;
-    margin: 0 10px;
-  }
-  .package_duration p{
-    font-size: 20px;
-  }
-  .package_duration span{
-    font-size: 8px;
-    margin-left: 4px;
-  }
-  .package_plan a{
-    font-size: 22px;
-  }
-  .packages{
-    padding: 0;
-  }
-  .package li{
-    font-size: 9px;
-    padding: 0 6px;
-    line-height: 20px;
-  }
-  .package ul{
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
