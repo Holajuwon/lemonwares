@@ -71,6 +71,26 @@ body {
   padding: 10px 0;
   background: #f3f7fc;
   border-radius: 16px;
+  position: relative;
+}
+
+.contact_icon1{
+      position: absolute;
+    top: 284px;
+    left: -13px;
+}
+
+.contact_icon2{
+      position: absolute;
+    top: 0px;
+    left: 535px;
+}
+
+
+.contact_icon3{
+  position: absolute;
+ top: 316px;
+    right: -15px;
 }
 
 .contact_body {
