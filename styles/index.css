@@ -139,7 +139,6 @@ ul li {
     flex-direction: column;
     margin-top: 20px;
   }
-  }
   .true_cloud {
     flex-direction: column;
     margin-top: 50px;
@@ -211,7 +210,8 @@ ul li {
   top: 32px;
   color: #000000;
 }
-.icon i  {
+.icon i  
+{
   color: #000000!important;
 }
 
