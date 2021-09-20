@@ -1,5 +1,6 @@
 /* google fonts - poppins and inter */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Poppins:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Poppins:wght@300;400;500;600;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 *,
 html,
 body {
@@ -9,7 +10,7 @@ body {
   font-family: Poppins, serif;
 }
 /* Timileyin  */
-nav{
+.navbar{
   display: flex;
   justify-content: space-around;
   padding: 50px 0 50px 0;
@@ -136,9 +137,12 @@ ul li {
 @media screen and (max-width:767px) {
   .section-2  {
     flex-direction: column;
+    margin-top: 20px;
+  }
   }
   .true_cloud {
     flex-direction: column;
+    margin-top: 50px;
   }
   .section-2 h1 {
     font-size: 40px;
@@ -153,9 +157,13 @@ ul li {
   }
   .section-2 p {
     width: 100%;
+    margin-top: 10px;
   }
   .section-2 img {
     width: 90%;
+  }
+  .true_cloud {
+    margin-bottom: 70px;
   }
   .true_cloud_container {
     width: 100%;
@@ -165,7 +173,48 @@ ul li {
   }
   .the_logos  {
     width: 100%;
+    margin-top: 15px;
   }
+  
+  .choice_button  {
+    margin-top: 25px;
+  }
+  .lady_sitting {
+    margin-top: 30px;
+}
+.logo {
+  width: 35%;
+}
+/* Mobile Navigation bar */
+.navbar  {
+  overflow: hidden;
+  position: relative;
+  padding: 20px 10px 20px 10px;
+  justify-content: space-between;
+}
+.nav-links {
+  display:none;
+}
+.navbar ul{
+  display: none;
+}
+.navbar a {
+  display:block;
+  color: #000000;
+  /* font-size: 25px; */
+  text-decoration: none;
+}
+.navbar a.icon  {
+  display: block;
+  position: absolute;
+  right: 25px;
+  top: 32px;
+  color: #000000;
+}
+.icon i  {
+  color: #000000!important;
+}
+
 }
 /* Olajuwon  */
 .flex_row{
@@ -175,6 +224,12 @@ ul li {
   display: flex;
   flex-direction: column;
 }
+.website_wrapper  {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
 .prod_desc img{
   width: 100px;
   margin-bottom: 10px;
@@ -445,6 +500,7 @@ ul li {
   font-size: 64px;
   width: 80%;
   margin: auto;
+  line-height: 88px;
 }
 
 .whatsapp_wrapper {
@@ -452,7 +508,7 @@ ul li {
   height: 48px;
   padding: 15px 0;
   cursor: pointer;
-  margin-top: 40px;
+  margin-top: 54px;
   border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
@@ -464,6 +520,9 @@ ul li {
   align-items: center;
   margin: auto;
   text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .fa {
@@ -475,8 +534,8 @@ ul li {
 
 .footer_container {
   width: 100%;
-  height: 54vh;
-  margin-top: 140px;
+  height: 43vh;
+  margin-top: 100px;
   background-color: #b00000;
 }
 
@@ -499,14 +558,21 @@ ul li {
   width: auto;
   height: auto;
 }
+.row_md2,
+.row_md3,
+.row_md4,
+.row_md5,
+.row_md6 {
+  margin-top: 20px;
+}
 
 .row_md6 {
   width: 85%;
-  margin: auto;
+  margin: 30px auto 10px;;
 }
 
 .footer_hd {
-  width: 296px;
+  width: 317px;
   height: 240px;
   color: #e6e6e6;
   font-size: 16px;
@@ -531,5 +597,18 @@ ul li {
 }
 .ft_text {
   color: #e6e6e6;
+}
+.website_hd_txt {
+  font-size: 48px;
+    width: 64%;
+    line-height:64px;
+}
+.website_text {
+  width:38%;
+}
+.website_p_txt  {
+  width: 57%;
+  margin-top: 5px;
+  line-height:32px;
 }
 /* Media Query */
