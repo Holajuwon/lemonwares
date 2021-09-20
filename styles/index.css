@@ -47,6 +47,8 @@ ul li {
 .nav-links p  {
   font-weight: 600;
   font-size: 15px;
+  border-bottom: solid 2px;
+  border-color: #B00000;
 }
 .section-2  {
   display: flex;
@@ -62,12 +64,20 @@ ul li {
   width: 70%;
   line-height: 77.5px;
   margin-right: -237px;
+  margin-top: 10px;
 }
 .section-2 ul {
   display: flex;
 }
-.section-2 li {
+.section-2 li  {
+  color: #D6D4D4E0;
   margin-right: 25px;
+  border-bottom: 1px solid #D6D4D4E0;
+}
+
+.has_a_line {
+  color:#B00000!important;
+  border-bottom: solid 2px #B00000 !important;
 }
 .section-2 p  {
   margin-top: 25px;
