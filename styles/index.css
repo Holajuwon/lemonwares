@@ -469,10 +469,19 @@ ul li {
   position: relative;
 }
 
+<<<<<<< HEAD
+.contact_icon1 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 0;
+  left: 711px;
+=======
 .contact_icon1{
       position: absolute;
     top: 284px;
     left: -13px;
+>>>>>>> main
 }
 
 .contact_icon2{
@@ -534,8 +543,13 @@ ul li {
 
 .footer_container {
   width: 100%;
+<<<<<<< HEAD
+  height: 42vh;
+  margin-top: 35px;
+=======
   height: 43vh;
   margin-top: 100px;
+>>>>>>> main
   background-color: #b00000;
 }
 
@@ -567,12 +581,22 @@ ul li {
 }
 
 .row_md6 {
+<<<<<<< HEAD
+  width: 90%;
+  padding: 0 12px;
+  margin: auto;
+}
+
+.footer_hd {
+  width: 63%;
+=======
   width: 85%;
   margin: 30px auto 10px;;
 }
 
 .footer_hd {
   width: 317px;
+>>>>>>> main
   height: 240px;
   color: #e6e6e6;
   font-size: 16px;
@@ -598,10 +622,104 @@ ul li {
 .ft_text {
   color: #e6e6e6;
 }
+<<<<<<< HEAD
+
+.ft_flex{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+/* Media Query */
+
+@media screen and (max-width: 767px) {
+  .website_container {
+    width: 100%;
+    height: auto;
+  }
+  .website_wrapper {
+    display: block;
+    width: 100%;
+  }
+  .website_text{
+    width: 100%;
+  }
+  .website_hd_txt {
+    width: 84%;
+    text-align: center;
+    margin: auto;
+  }
+  .website_p_txt{
+    width: 62%;
+    margin: auto;
+    text-align: center;
+  }
+  .brand_icons{
+    width: 100%;
+  }
+  .icon_holder {
+    padding: 0px;
+    margin: auto;
+  }
+  .contact_body,.contact_div{
+    width: 100%;
+    padding: 0 60px;
+    height: 350px;
+    padding: 0px;
+  }
+  .contact_hd{
+    font-size: 40px;
+    padding: 40px 0;
+    text-align: center;
+  }
+  .contact_icon1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 284px;
+  }
+  .contact_icon2{
+        width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 242px;
+    left: -18px;
+
+  }
+  .contact_icon3{
+    position: absolute;
+    top: 255px;
+    right: -7px;
+}
+.footer_container{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.row_md6{
+  width: 100%;
+  padding: 0 20px;
+}
+.footer_content{
+ width: 100%;
+    height: 260px;
+    padding: 20px;
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+}
+.mobile_ft_hd{
+  width: 267px;
+}
+.footer_hd{
+      width: 100%;
+    height: 100px;
+=======
 .website_hd_txt {
   font-size: 48px;
     width: 64%;
     line-height:64px;
+>>>>>>> main
 }
 .website_text {
   width:38%;
