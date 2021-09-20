@@ -612,3 +612,48 @@ ul li {
   line-height:32px;
 }
 /* Media Query */
+@media screen and (max-width: 767px) {
+  .prod_section {
+    padding: 0 20px;
+  }
+  .package_header span{
+    display: inline;
+  }
+ 
+}
+@media screen and (max-width: 430px) {
+  .package_header{
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .package_section > p:nth-of-type(1){
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .package_duration img{
+    width: 50px;
+    margin: 0 10px;
+  }
+  .package_duration p{
+    font-size: 20px;
+  }
+  .package_duration span{
+    font-size: 8px;
+    margin-left: 4px;
+  }
+  .package_plan a{
+    font-size: 22px;
+  }
+  .packages{
+    padding: 0;
+  }
+  .package li{
+    font-size: 9px;
+    padding: 0 6px;
+    line-height: 20px;
+  }
+  .package ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
