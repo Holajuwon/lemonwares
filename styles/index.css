@@ -29,7 +29,7 @@ body {
 .website_text {
   width: 50%;
   height: auto;
-  flex-wrap: wrap;
+  padding: 0 60px;
 }
 
 .website_hd_txt {
@@ -53,6 +53,7 @@ body {
   width: 80%;
   display: grid;
   margin: auto;
+  margin-right: inherit;
   grid-template-columns: 33.3% 33.3% 33.3%;
   grid-template-rows: 100px auto;
   flex-wrap: wrap;
@@ -74,23 +75,28 @@ body {
   position: relative;
 }
 
-.contact_icon1{
-      position: absolute;
-    top: 284px;
-    left: -13px;
-}
-
-.contact_icon2{
-      position: absolute;
-    top: 0px;
-    left: 535px;
-}
-
-
-.contact_icon3{
+.contact_icon1 {
   position: absolute;
- top: 316px;
-    right: -15px;
+  width: 35px;
+  height: 35px;
+  top: 0;
+  left: 614px;
+}
+
+.contact_icon2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 267px;
+  left: -27px;
+}
+
+.contact_icon3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 316px;
+  right: -15px;
 }
 
 .contact_body {
@@ -103,7 +109,7 @@ body {
 
 .contact_hd {
   font-size: 64px;
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
@@ -141,12 +147,11 @@ body {
 }
 
 .footer_content {
-  width: 85%;
+  width: 90%;
   height: 320px;
   display: flex;
-  flex-wrap: wrap;
   margin: auto;
-  padding: 40px 0;
+  padding: 60px 10PX;
   justify-content: space-between;
 }
 
@@ -166,7 +171,7 @@ body {
 }
 
 .footer_hd {
-  width: 296px;
+  width: 25%;
   height: 240px;
   color: #e6e6e6;
   font-size: 16px;
@@ -192,4 +197,192 @@ body {
 .ft_text {
   color: #e6e6e6;
 }
+
+.ft_flex{
+  width:65%;
+  display: flex;
+  justify-content: space-between;
+}
 /* Media Query */
+
+@media screen and (max-width: 767px) {
+  .website_container {
+    width: 100%;
+    height: auto;
+  }
+  .website_wrapper {
+    display: block;
+    width: 100%;
+  }
+  .website_text{
+    width: 100%;
+  }
+  .website_hd_txt {
+    width: 84%;
+    text-align: center;
+    margin: auto;
+  }
+  .website_p_txt{
+    width: 62%;
+    margin: auto;
+    text-align: center;
+  }
+  .brand_icons{
+    width: 100%;
+  }
+  .icon_holder {
+    padding: 0px;
+    margin: auto;
+  }
+  .contact_body,.contact_div{
+    width: 100%;
+    padding: 0 60px;
+    height: 350px;
+    padding: 0px;
+  }
+  .contact_hd{
+    font-size: 40px;
+    padding: 40px 0;
+    text-align: center;
+  }
+  .contact_icon1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 284px;
+  }
+  .contact_icon2{
+        width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 242px;
+    left: -18px;
+
+  }
+  .contact_icon3{
+    position: absolute;
+    top: 255px;
+    right: -7px;
+}
+.footer_container{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.row_md6{
+  width: 100%;
+  padding: 0 20px;
+}
+.footer_content{
+ width: 100%;
+    height: 260px;
+    padding: 20px;
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+}
+.mobile_ft_hd{
+  width: 267px;
+}
+.footer_hd{
+      width: 100%;
+    height: 100px;
+}
+.ft_flex{
+  width: 50%;
+  padding: 0 0 40px;
+}
+}
+@media screen and (max-width: 430px) {
+  .website_container {
+    display: block;
+  }
+  .website_wrapper {
+    display: block;
+  }
+  .website_text {
+    width: auto;
+  }
+  .website_text {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .brand_icons {
+    width: 100%;
+    height: auto;
+  }
+  .contact_div {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact_hd {
+    font-size: 18px;
+  }
+  .contact_icon1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 146px;
+  }
+  .contact_icon2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 156px;
+    left: -14px;
+  }
+  .contact_icon3 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 181px;
+    right: -5px;
+  }
+  .brand_icons {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .icon_holder {
+    margin: 0;
+    padding: 0;
+  }
+
+  .col,
+  .brand_img {
+    width: 100px;
+    height: 70px;
+    gap: 10px 10px;
+    margin: auto;
+    border: 1px solid;
+  }
+  .footer_container {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 25px 10px;
+  }
+  .footer_content {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  .mobile_ft_hd {
+    height: 216px;
+  }
+  .footer_hd {
+    width: 100%;
+  }
+  .ft_flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex: auto;
+  }
+}
